@@ -26,7 +26,7 @@ try {
 }
 const jwtSecet = process.env.JWT_SECRET;
 const bcryptSalt = bcrypt.genSaltSync(10)
-app.use(cors({ credentials: true, origin: [process.env.CLIENT_URL, 'https://your-frontend-vercel-url.vercel.app'] }))
+app.use(cors({ credentials: true, origin: [process.env.CLIENT_URL, ' https://mern-chat-frontend-eyk2ji4a8-abhishekrai007s-projects.vercel.app'] }))
 
 const getUserDataFromRequest = async (req) => {
     return new Promise((resolve, reject) => {
